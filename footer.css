@@ -1,0 +1,351 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+#manager{
+	background-color: #3F3F3F;
+	width: 100%;
+	height: 572px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.roler3{
+	font-size: 31px;
+    font-weight: 540;
+    text-transform: uppercase
+        padding-top: 4%;
+    padding-left: 13.8%;
+    color: white;
+    position: absolute;
+ }
+
+ .roler3::after{
+ 	content: "";
+ 	display: block;
+ 	width: 125px;
+ 	border-bottom:solid 3px red ;
+ }
+
+
+.manager-avatar{
+    height: 572px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 338px;
+    padding-top: 46px
+}
+
+#content{
+	position: absolute;
+	bottom: 64%;
+	left: 11.8%;
+}
+.name{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+
+#said-position{
+	position: relative;
+}
+
+.sentence{
+	position: absolute;
+    padding-top: 37%;
+    width: 76%;
+    font-size: 18px;
+    padding-left: 0%;
+    color: white;
+    opacity: 0.8;
+    font-style: italic;
+    text-transform: uppercase;
+  	font-weight: lighter;
+}
+
+#match{
+	position: absolute;
+    padding-left: 395%;
+    width: 10%;
+    margin-top: -70px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.statistic, .statistic1, .statistic2{
+	margin-bottom: 36px;
+
+}
+
+#information{
+    height: 385px;
+    margin-left: 220px;
+    margin-right: 220px;
+    position: relative;
+
+}
+
+.biography{
+	padding-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#information .roler4{
+	color: rgb(142, 144, 145);
+    text-transform: uppercase;
+}
+
+.sub-roler4{
+	padding-top: 23px;
+    font-weight: 550;
+    font-size: 14px;
+    padding-bottom: 18px;
+    line-height: 20px;
+    text-align: justify;
+    border-bottom: solid 1px grey;
+    font-family: Arial, sans-serif;
+}
+.help-flag{
+	position: relative;
+}
+
+.line1{
+	padding-top: 15px;
+}
+
+.roler5{
+	display: flex;	
+}
+
+.sub-roler5, .sub-roler7{
+	padding-right: 200px;
+    font-size: 14px;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.roler6, .roler8{
+	display: flex;
+	padding-top: 25px;
+}
+
+.sub-roler6, .sub-roler8{
+	font-size: 16px;
+    font-weight: 550;
+    padding-right: 200px;
+}
+
+.sub2{
+	display: flex
+}
+
+.sub3{
+	position: absolute;
+	left: 538px;
+	font-size: 16px;
+	color: red;
+}
+.flag{
+	width: 50px;
+    position: absolute;
+    top: 223px
+}
+
+.country{
+	padding-left: 62px;
+}
+
+.line2{
+	position: absolute;
+	top: 78%;
+}
+
+.roler7{
+	color: grey
+}
+.roler7, .roler8{
+	display: flex;
+}
+
+.sub7{
+	margin-left: 15px;
+}
+
+.sub8{
+	margin-left: -65px;
+}
+
+.roler8{
+	color: red;
+}
+
+
+.roler9{
+	padding: 1.6em 2em  1.5em 4.5em;
+    font-size: 31px;
+    font-weight: 540;
+    text-transform: uppercase;
+    color: white
+}
+
+.roler9::after{
+	content: " ";
+    display: block;
+    width: 147px;
+	border-bottom: solid 3px red;
+}
+
+#legend{
+	background-color: rgb(63,63,63);
+	margin: 0 auto;
+	margin-top: 22px;
+	padding-bottom: 35px;
+}
+
+.position4, .position5{
+	width: inherit;
+	justify-content: space-evenly;
+	display: flex;
+}
+
+.legend-position{
+	width: 210px;
+	height: 210px;
+	background-color: black;
+	position: relative;
+	margin: 1em;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.legend-avatar{
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+.legend-name{
+	position: absolute;
+	left: 10%;
+	bottom: 1%;
+	font-size: 20px;
+    text-transform: uppercase;
+    color: #E4D5D5;
+    width: 54%;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.legend-name::before {
+	content: "";
+    width: 40%;
+    transition: 1s;
+    height: 3px;
+    display: block;
+    background-color: red;
+    transition: 1s;
+}
+
+.legend-info::after{
+	content: "";
+    width: 210px;
+    height: 57px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    backdrop-filter: blur(1.2px);
+  }
+
+ .legend-position:hover{
+  	cursor: pointer;
+  }
+
+ .legend-position:hover .legend-avatar{
+  		transform: scale(1.1);
+ }
+
+ .legend-position:hover .legend-name::before{
+ 	 width: 90%;
+ }
+
+.roy-edit{
+	width: 113%
+}
+
+#footer{
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom:30px; 
+}
+
+.logo-donors{
+	width: 85px;
+    margin: 0px 22px;
+}
+
+.adidas{
+	width: 65px;
+}
+
+.chevrolet{
+	width: 95px;
+}
+
+.aon{
+	width: 84px;
+    margin-bottom: 9px
+}
+
+.kohler{
+	width: 90px;
+}
+
+.contact{
+	position: absolute;
+	bottom: 10%;
+	right: 1.5%;
+}
+
+.icon{
+	font-size: 22px;
+	border: 3px solid black;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 1em;
+	transition: 0.8s;
+}
+
+.icon:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.face{
+	position: absolute;
+	left: 29%;
+	top: 29%
+}
+
+
+
+
