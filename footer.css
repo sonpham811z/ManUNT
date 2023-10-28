@@ -14,10 +14,10 @@
 }
 
 .roler3{
-	font-size: 31px;
+    font-size: 31px;
     font-weight: 540;
-    text-transform: uppercase
-        padding-top: 4%;
+    text-transform: uppercase;
+    padding-top: 4%;
     padding-left: 13.8%;
     color: white;
     position: absolute;
@@ -26,7 +26,7 @@
  .roler3::after{
  	content: "";
  	display: block;
- 	width: 125px;
+ 	width: 135px;
  	border-bottom:solid 3px red ;
  }
 
