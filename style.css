@@ -5,6 +5,10 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 #subheader{
 	width:100%;
 	height: 85px;
